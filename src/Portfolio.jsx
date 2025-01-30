@@ -718,7 +718,7 @@ const Portfolio = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="flex justify-center space-x-6 mb-4">
             <a href="https://github.com/prithvi081099" className="hover:text-gray-300" target="_blank" onClick={() => trackLink('github', { sectionName: 'footer' })} >GitHub</a>
-            <a href="https://www.linkedin.com/in/prithvimalhotra/" className="hover:text-gray-300" target="_blank" onClick={() => trackLink('linkedin', { sectionName: 'footer' })} >LinkedIn</a>
+            <a href="https://www.linkedin.com/in/prithvimalhotra/" className="hover:text-gray-300" target="_blank" onClick={() => trackLink('linkedIn', { sectionName: 'footer' })} >LinkedIn</a>
            
           </div>
           <p>&copy; 2025 Prithvi Malhotra. All rights reserved.</p>
