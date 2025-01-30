@@ -603,7 +603,7 @@ const Portfolio = () => {
                 >
                   <div className="absolute left-0 top-0 w-4 h-4 bg-blue-600 rounded-full -translate-x-1/2"></div>
                   <div className="bg-gray-50 p-4 rounded-lg shadow-sm">
-                    <h4 className="text-lg font-semibold text-blue-600">Master of Sciend in Computer Science</h4>
+                    <h4 className="text-lg font-semibold text-blue-600">Master of Science in Computer Science</h4>
                     <p className="text-gray-600 mb-2">University Of Colorado Boulder • Aug 2023 - May 2025</p>
                     <p className="text-gray-600">Course Manager of Computer Systems and Research Assistant</p>
                   </div>
