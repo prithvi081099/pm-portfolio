@@ -465,8 +465,38 @@ const Portfolio = () => {
                 >
                   <div className="absolute left-0 top-0 w-4 h-4 bg-blue-600 rounded-full -translate-x-1/2"></div>
                   <div className="bg-gray-50 p-4 rounded-lg shadow-sm">
+                    <h4 className="text-lg font-semibold text-blue-600">Capstone Project</h4>
+                    <p className="text-gray-600 mb-2">Rule4, Boulder, USA • Oct 2024 - Present</p>
+                    <ul className="list-disc list-inside text-gray-600">
+                      <li className="flex items-start">
+                        <span className="mr-2">•</span>
+                        <span>Designing and developing a secure Human-Machine Interface (HMI) that connects wirelessly to a server hosted as an access point on a dedicated WiFi network for real-time control.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="mr-2">•</span>
+                        <span>Engineering the server to act as a DNS and access point, ensuring a self-contained network while securely interfacing via wired communication with a Click PLC using Click Software to control the train set.</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="mr-2">•</span>
+                        <span>Implementing OpenSSL-based encryption and other security protocols to enhance system security, making it resilient against penetration testing by interns and trainees.</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <div 
+                  id="exp-2"
+                  className="timeline-item relative pl-8 border-l-2 border-blue-600 opacity-0 translate-y-8 transition-all duration-700 ease-out"
+                  style={{
+                    opacity: isVisible['exp-1'] ? 1 : 0,
+                    transform: isVisible['exp-1'] ? 'translateY(0)' : 'translateY(2rem)',
+                    transitionDelay: '200ms'
+                  }}
+                >
+                  <div className="absolute left-0 top-0 w-4 h-4 bg-blue-600 rounded-full -translate-x-1/2"></div>
+                  <div className="bg-gray-50 p-4 rounded-lg shadow-sm">
                     <h4 className="text-lg font-semibold text-blue-600">Research Assistant</h4>
-                    <p className="text-gray-600 mb-2">University Of Colorado Boulder • Oct 2024 - Prsent</p>
+                    <p className="text-gray-600 mb-2">University Of Colorado Boulder • Oct 2024 - Present</p>
                     <ul className="list-disc list-inside text-gray-600">
                       <li className="flex items-start">
                         <span className="mr-2">•</span>
@@ -481,7 +511,7 @@ const Portfolio = () => {
                 </div>
 
                 <div 
-                  id="exp-2"
+                  id="exp-3"
                   className="timeline-item relative pl-8 border-l-2 border-blue-600 opacity-0 translate-y-8 transition-all duration-700 ease-out"
                   style={{
                     opacity: isVisible['exp-2'] ? 1 : 0,
@@ -508,7 +538,7 @@ const Portfolio = () => {
                 </div>
 
                 <div 
-                  id="exp-3"
+                  id="exp-4"
                   className="timeline-item relative pl-8 border-l-2 border-blue-600 opacity-0 translate-y-8 transition-all duration-700 ease-out"
                   style={{
                     opacity: isVisible['exp-3'] ? 1 : 0,
@@ -540,7 +570,7 @@ const Portfolio = () => {
                 </div>
 
                 <div 
-                  id="exp-4"
+                  id="exp-5"
                   className="timeline-item relative pl-8 border-l-2 border-blue-600 opacity-0 translate-y-8 transition-all duration-700 ease-out"
                   style={{
                     opacity: isVisible['exp-4'] ? 1 : 0,
